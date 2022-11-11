@@ -1,13 +1,10 @@
 import './App.css';
-import NavBar from './Componentes/NavBar';
-import ItemListContainer from './Containers/ItemListContainer';
+import Router from './routes';
 
 function App() {
   return (
-    <div className="App">
-    <NavBar/>
-    <ItemListContainer mensaje="Natalia Miranda"/>
-    </div>
+    <Router/>
   );
 }
+
 export default App;
