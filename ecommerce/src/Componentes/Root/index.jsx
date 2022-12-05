@@ -7,7 +7,8 @@ const Root = () => {
   return (
     <> 
       <NavBar />
-      <h1>Catalogo de Personajes listo para entrega: </h1>
+      <h1>Bienvenido a Impresiones 3D La Fuffy, a continuacion te presentamos el catalogo de figurines disponibles para compra directa! Todos elaborados con el mayor cuiado y atencion al detalle: </h1>
+      <h1>Puedes sortear entre las categorillas de figurines Alienigenas y Humanos, que disfrutes tu estancia en la pagina:</h1>
       <Outlet />
       <Footer />
     </>

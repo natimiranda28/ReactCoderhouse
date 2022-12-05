@@ -1,0 +1,25 @@
+.Formulario{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+form input{
+    width: 25vw;
+    justify-content: center;
+}
+
+form button{
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.datos_del_usuario{
+    background-color: darkgray;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}

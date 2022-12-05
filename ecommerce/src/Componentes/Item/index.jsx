@@ -13,9 +13,9 @@ const Item = ({product}) => {
   return (
     <div onClick={navigateDetail} className="CardProduct">
       <img src={product.image} alt="modelo personaje"/>
-      <h1 key={product.id}>{product.name}</h1>
-      <h2 key={product.id}>Ubicacion: {product.location.name}</h2>
-      <h2>Precio: {50}</h2>
+      <h1>Nombre: {product.name}</h1>
+      <h2>Precio: {product.price}</h2>
+      <h2>Stock: {product.quantity}</h2>
     </div>
   )
 }

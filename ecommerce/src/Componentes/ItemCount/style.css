@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: lightgreen;
+    margin: 5px;
+}
+
+button {
+    border: solid 1px black;
+    padding: 10px;
+    background-color: lightgreen;
+    color: black;
+}

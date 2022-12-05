@@ -1,0 +1,30 @@
+.item-detail{
+    height: 75vh;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+
+.item-detail img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.item-detail h1{
+    size: 200%;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.item-detail h2{
+   
+    text-align: center;
+    background-color: lightgreen;
+    size: 150%;
+}

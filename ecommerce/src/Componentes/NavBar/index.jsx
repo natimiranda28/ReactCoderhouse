@@ -4,7 +4,6 @@ import CartWidget from "../CartWidget";
 import './style.css';
 
 const NavBar = () => {
-
     return (
         <>
         <h1>Impresiones3D "La Fuffy"</h1>
@@ -18,7 +17,9 @@ const NavBar = () => {
             <li className="elem-lista">
                 <Link to="/category/alien">Alien</Link>
             </li>
+            <li className="elem-lista">
             <CartWidget />
+            </li>
         </ul>
         </>
         

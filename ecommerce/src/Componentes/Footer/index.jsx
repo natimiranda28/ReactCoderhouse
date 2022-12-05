@@ -13,17 +13,17 @@ const Footer = () => {
           className="elem-foot"
           href="https://www.facebook.com"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
-          <img src="facebook.webp" width="50" height="50" alt="Facebook" />
+          <img src="Media/facebook.webp" width="50" height="50" alt="Facebook" />
         </a>
         <a
           className="elem-foot"
           href="https://www.instagram.com"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
-          <img src="instagram.webp" width="50" height="50" alt="Instagram" />
+          <img src="Media/instagram.webp" width="50" height="50" alt="Instagram" />
         </a>
       </footer>
     </>
